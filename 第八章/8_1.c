@@ -6,7 +6,7 @@
 int main(void) {
 	int num = 0;
 	char ch;
-	while(ch=getchar()!='\n')
+	while(ch=getchar()!=EOF)
 	{
 		num++;
 	}
