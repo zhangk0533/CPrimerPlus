@@ -12,5 +12,5 @@ int main(void) {
 	}
 	printf("×Ö·û¸öÊıÎª %d",num); 
 	
-	return 0;
+	return 0;//sdsdf 
 }
