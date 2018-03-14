@@ -5,16 +5,28 @@
 
 int main(int argc, char *argv[]) {
 	char ch;
-	int num = 0;
+	int num = 0; //转换次数
 	while((ch=getchar())!='#')
 	{
-		if(ch!='\n')
-			printf("%c:%d",ch,ch);
-		if(++num%8==0)
-			putchar('\n');	
+		if('.'==ch)
+		{
+			putchar('!');
+			num++;
+		}
+		else if('!'==ch)
+		{
+			putchar('!');
+			putchar('!');
+			num++;
+		}
+		else
+		{
+			putchar(ch);
+		}
+		
 		if(ch=='\n')
 		{
-			num = 0;
+			printf("替换的次数为%d",num);
 		}
 	}
 	return 0;

@@ -8,13 +8,13 @@ int main(int argc, char** argv) {
 	int num2 = 0;//»»ÐÐ·ûÊý
 	int num3 = 0;//×Ö·ûÊý
 	char ch;
-	while(ch=getchar()!='#') 
+	while((ch=getchar())!='#') 
 	{
-		if(ch=='\t')
+		if(' '==ch)
 		{
 			num1++;
 		}
-		else if(ch=='\n')
+		else if('\n'==ch)
 		{
 			num2++;
 		}
