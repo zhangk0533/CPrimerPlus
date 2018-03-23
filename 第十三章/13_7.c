@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
@@ -21,6 +22,11 @@ int main(int argc, char *argv[]) {
 	{
 		if(fgets(buff1,256,fp1)!=NULL)
 		{
+			int length = strlen(buff1);
+			if(buff1[length-1]=='\n')
+			{
+				buff1[length-1] = '\0';
+			}
 			fputs(buff1,stdout);
 		}
 		

@@ -1,6 +1,6 @@
 [Project]
-FileName=13_7.dev
-Name=13_7
+FileName=13_11.dev
+Name=13_11
 Type=1
 Ver=2
 ObjFiles=
@@ -23,7 +23,7 @@ OverrideOutputName=
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
-CommandLine=
+CommandLine=fget test13_11.txt
 Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=13_7.c
+FileName=13_11.c
 CompileCpp=0
 Folder=
 Compile=1

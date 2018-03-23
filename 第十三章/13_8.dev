@@ -1,6 +1,6 @@
 [Project]
-FileName=13_7.dev
-Name=13_7
+FileName=13_8.dev
+Name=13_8
 Type=1
 Ver=2
 ObjFiles=
@@ -23,12 +23,12 @@ OverrideOutputName=
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
-CommandLine=
+CommandLine=a test13_8_1.txt test13_8_2.txt 
 Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000000000000
+CompilerSettings=0000000000000000001000000
 UnitCount=1
 
 [VersionInfo]
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=13_7.c
+FileName=13_8.c
 CompileCpp=0
 Folder=
 Compile=1
